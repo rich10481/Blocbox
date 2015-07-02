@@ -1,3 +1,43 @@
+/*throw away code*/
+
+.boxone, .boxtwo, .boxthree, footer {
+  width: 100%;
+/*  background-color: #dadada;
+*/}
+
+.boxone-overlay {
+  background-color: rgba(123,212,88,.6);
+  padding-bottom: 200px;
+}
+
+.boxone {
+  background-image: url('/images/Landing-Page-Background-Image-1.png');
+}
+
+.boxtwo {
+  height: 400px;
+  background-color: #aaaaaa;
+}
+
+footer {
+  height: 80px;
+  background-color: blue;
+}
+
+.site-logo {
+  display: block;
+}
+
+ul {
+  margin: 0;
+}
+
+nav {
+  padding: 15px 0;
+  background-color: rgba(0,0,0,.3);
+}
+
+
 html, body{
   overflow-x: hidden;
 }
@@ -39,4 +79,22 @@ font-weight: 100;
   min-height: 1px;
   margin: 0 2% 20px;
 }
+
+.one-half {
+  width: 45%;
 }
+
+.one-third {
+  width: 30%;
+}
+
+.one-fourth {
+  width: 20%;
+}
+
+.one-fifth {
+  width: 10%;
+  float: left;
+}
+
+
