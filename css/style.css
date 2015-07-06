@@ -1,43 +1,32 @@
 /*throw away code*/
 
-.boxone, .boxtwo, .boxthree, footer {
+
+.boxone, /*.boxtwo, .boxthree, footer */
+  {
+    width: 100%; 
+}
+nav {
+  padding: 15px 0;
+  background-color: rgba(0,204,204, .7) 
+  }
+.background-image {
+  background: url(../images/Landing-Page-Background-Image-1.png) bottom no-repeat; z-index: 0;
   width: 100%;
-/*  background-color: #dadada;
-*/}
-
-.boxone-overlay {
-  background-color: rgba(123,212,88,.6);
-  padding-bottom: 200px;
-}
-
-.boxone {
-  background-image: url('/images/Landing-Page-Background-Image-1.png');
-}
-
-.boxtwo {
-  height: 400px;
-  background-color: #aaaaaa;
-}
-
-footer {
-  height: 80px;
-  background-color: blue;
-}
+  }
+  
 
 .site-logo {
   display: block;
+
 }
 
 ul {
-  margin: 0;
+  margin: 20px;
+  display: inline;
 }
 
-nav {
-  padding: 15px 0;
-  background-color: rgba(0,0,0,.3);
+ 
 }
-
-
 html, body{
   overflow-x: hidden;
 }
@@ -62,7 +51,6 @@ font-weight: 100;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  position: relative;
 }
 .container: before,
 .container: after {
@@ -73,28 +61,12 @@ font-weight: 100;
   clear: both;
 }
 .one-half, .one-third, .one-fourth {
-  width: 96%;
+  width: 100%;
   float: left;
   position: relative;
   min-height: 1px;
-  margin: 0 2% 20px;
+  margin: 0;
 }
 
-.one-half {
-  width: 45%;
-}
-
-.one-third {
-  width: 30%;
-}
-
-.one-fourth {
-  width: 20%;
-}
-
-.one-fifth {
-  width: 10%;
-  float: left;
-}
 
 
