@@ -1,22 +1,71 @@
 /*throw away code*/
 
+ul.signup {
+  display: inline-block;
+  padding: none;
+  margin: none;
+}
+
+.left-logo {
+  float: left;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.right-buttons {
+  float: right;
+}
+
+.signup {
+  list-style-type: none;
+}
+
+.signup li {
+  float: left;
+  margin-left: 20px;
+}
+
+.signup li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.signup li a:hover {
+  color: #333;
+  text-decoration: none;
+}
 
 .boxone, /*.boxtwo, .boxthree, footer */
   {
     width: 100%; 
 }
 nav {
+  height: 50px;
   padding: 15px 0;
   background-color: rgba(0,204,204, .7) 
   }
+
 .background-image {
   background: url(../images/Landing-Page-Background-Image-1.png) bottom no-repeat; z-index: 0;
-  width: 100%;
+  background-size: cover;
   }
   
 
+.small-logo {
+  display: inline-block;
+}
+
 .site-logo {
-  display: block;
+  display: inline-block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.hero {
+  background-color: rgba(0,204,204, .7); 
+  text-align: center;
+  width: 100%;
+  padding-bottom: 100px;
 
 }
 
@@ -33,40 +82,49 @@ html, body{
 body {font-family: "Open Sans", Arial, sans-serif;
 color:#333333;
 }
+
 h1,h2,h3,h4,h5,h6 {
   font-family: "Roboto Slab", Quicksand, Arial, sans-serif;
 }
+
 h2{
   font-size: 28px;
   font-weight: normal;
   margin-bottom: 5px;
 }
-p {font-size: 16px;
-line-height: 19px;
-font-weight: 100;
+
+p {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 100;
 }
+
 /*GRID*/
+
 .container {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
+
 .container: before,
 .container: after {
   content: "";
   display: table;
 }
+
 .container: after {
   clear: both;
 }
-.one-half, .one-third, .one-fourth {
+
+/*.one-half, .one-third, .one-fourth {
   width: 100%;
   float: left;
   position: relative;
   min-height: 1px;
   margin: 0;
-}
+}*/
 
 
 
